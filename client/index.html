@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta name="description" content="Yukari Im News Article Evaluation">
+            <meta name="keyword" content="News, Article, Evaluation, Analysis, NLP">
+            <meta name="author" content="Yukari Im">
+            <link rel="stylesheet" href="./styles/style.css">
+            <link rel="icon" href="./image/favicon.ico">
+            <title>News Article Evaluation</title>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img src="https://img.icons8.com/ios/50/000000/artificial-intelligence.png"/>
+                <p>News Article Evaluation</p>
+            </div>
+            <div>
+                About
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form>
+                    <input id="name" type="text" name="input" placeholder=" Enter URL to analyze...">
+                    <input id="button" type="submit" value="Analyze">
+                </form>
+            </section>
+
+            <section>
+                <h1>Results:</h1>
+                <div class="results">
+                    <p id="score"></p>
+                    <p id="agreement"></p>
+                    <p id="subjectivity"></p>
+                    <p id="confidence"></p>
+                    <p id="irony"></p>
+                    <p id="text-snippet"></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&#9400;Yukari Im</p>
+            <a href="https://icons8.com/icon/61864/artificial-intelligence">Artificial Intelligence icon by Icons8</a>
+        </footer>
+
+        <script src="js/formHandler.js" type="module"></script>
+    </body>
+</html>
